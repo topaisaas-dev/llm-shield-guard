@@ -357,7 +357,7 @@ app.get("/", (c) => {
     </div>
 
     <div class="links-bar">
-      <a href="https://rapidapi.com/user/topaisaas-dev" target="_blank">⚡ RapidAPI Marketplace</a>
+      <a href="https://rapidapi.com/user/topaisaasdev" target="_blank">⚡ RapidAPI Marketplace</a>
       <a href="https://github.com/topaisaas-dev/llm-shield-guard" target="_blank">📦 GitHub Repository</a>
       <a href="/openapi.json" target="_blank">📄 OpenAPI Specification</a>
       <a href="/v1/health" target="_blank">🩺 Healthcheck</a>
