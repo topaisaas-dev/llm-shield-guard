@@ -1,0 +1,23 @@
+{
+  "name": "llm-shield-guard",
+  "version": "1.0.0",
+  "description": "Sub-Millisecond Algorithmic Firewall & Prompt Injection Shield for AI Agents & LLMs",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test tests/shield.test.js"
+  },
+  "keywords": ["llm-shield", "prompt-injection", "jailbreak", "ai-security", "pii-redaction", "firewall", "cloudflare-worker"],
+  "author": "topaisaas-dev",
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241230.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^3.99.0"
+  }
+}
